@@ -15,5 +15,6 @@ job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
 print('I have been created using Glue Studio')
+print('I have been modified in source control')
 
 job.commit()
